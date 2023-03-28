@@ -1,0 +1,80 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'consolas';
+    width: 90%;  
+    font-size: 1.725em;    
+    margin: 100px auto;    
+}
+
+h2 {
+    margin-bottom: 70px;
+}
+
+.text {
+    text-align: center;
+}
+
+.one {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(45deg, #415BD0 0%, #c850c0 46%, #ffcc70 100%);
+}
+
+.two {   
+    background-image: linear-gradient(45deg, #415BD0 0%, #c850c0 46%, #ffcc70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.three {   
+    background-image: linear-gradient(45deg, #fced44 16%, #6673ff 46%, #44ff33 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.four {   
+    background-image: linear-gradient(120deg, #ff00f7, #00deff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.background {
+    font-size: 72px;
+    background-image: linear-gradient(to right, rgb(0, 255, 255), rgb(255, 1, 234));
+    text-align: center;
+    color: rgba(0, 0, 0, 0.57);
+    filter: blur(3px);    
+}
+
+.bottom-font {
+    font-size: 72px;
+     background: -webkit-linear-gradient(rgb(236, 10, 206), rgb(0, 255, 221));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.to-any-side {    
+    font-size: 50px;
+    background: linear-gradient(to right, #03fffb, #030303);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.padriuris-font {
+    font-size: 70px;
+    background: linear-gradient(to right, #02b4b1, #069bf1, #ae06f1, #f106ca, #fd01b2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
